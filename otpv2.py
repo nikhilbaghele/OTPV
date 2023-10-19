@@ -4,8 +4,8 @@ import random
 import smtplib
 import re
 
-account_sid = "ACe93ddab96de7a3735e8e026e74d878f1"
-auth_token = "8941501362dd707ee3d567248e6d9c48"
+account_sid = 'ACe93ddab96de7a3735e8e026e74d878f1'
+auth_token = '8941501362dd707ee3d567248e6d9c48'
 input_no = '+18506600452'
 
 def validate_mobile_no(mobile_no):
