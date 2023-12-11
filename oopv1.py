@@ -56,3 +56,4 @@ if __name__ == "__main__":
         otp_sender.send_email(email, otp)
     else:
         print("Invalid Email ")
+        
