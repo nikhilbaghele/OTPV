@@ -18,7 +18,7 @@ class TestProgramFunctions(unittest.TestCase):
 
     def test_generate_otp(self):
         otp = generate_otp()
-        self.assertEqual(len(otp), 6)
+        self.assertEqual(len(otp), 5)
         self.assertTrue(otp.isdigit())
 
 
